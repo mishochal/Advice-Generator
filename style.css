@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #202632;
+    font-family: sans-serif;
+}
+
+.advice-container {
+    box-sizing: content-box;
+    width: 35%;
+    max-width: 400px;
+    max-height: fit-content;
+    background-color: #313a49;
+    text-align: center;
+    border-radius: 10px;
+    padding: 40px 45px 0;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.advice-id {
+    color: #7ddfb9;
+    font-size: 12.5px;
+    letter-spacing: 3px;
+}
+
+.advice-text {
+    font-size: 27px;
+    margin-top: 25px;
+    color: #cddfe9;
+    border-bottom: 1px solid #535c6b;
+    padding-bottom: 50px;
+}
+
+.double-line-container {
+    display: flex;
+    width: 50px;
+    justify-content: center;
+    position: relative;
+    left: 50%;
+    translate: -50% -50%;
+    background-color: #313a49;
+}
+
+.line {
+    width: 6px;
+    height: 15px;
+    margin: 0 5px;
+    border-radius: 15px;
+    background-color: #cce1e9;
+}
+
+.dice {
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    background-color: #50ffac;
+    margin: 10px auto 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    translate: 0 50%;
+    cursor: pointer;
+    transition: background-color 0.5s ease-in-out;
+}
+
+.dice:hover {
+    background-color: #8fffd1;
+}
+
+.dice:active {
+    box-shadow: 0 0 20px 1px;
+}
+
+.fa-dice-five {
+    color: #202835;
+}
