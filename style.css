@@ -83,3 +83,32 @@ body {
 .fa-dice-five {
     color: #202835;
 }
+
+
+@media (max-width: 800px) {
+    .advice-container {
+        width: 60%;
+        max-width: 60%;
+    }
+}
+
+@media (max-width: 500px) {
+
+    .advice-container {
+        width: 80%;
+        max-width: 80%;
+        padding: 20px 25px 0;
+    }
+
+    .advice-text {
+        font-size: 23px;
+        margin-top: 20px;
+        padding-bottom: 35px;
+    }
+
+    .dice {
+        width: 55px;
+        height: 55px;
+        cursor: default;
+    }
+}
